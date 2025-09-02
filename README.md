@@ -12,6 +12,9 @@ This repository provides a starting point for building accessible navigation men
 
 ## Laws and Requirements
 
+### Americans with Disabilities Act (ADA)
+The ADA prohibits discrimination on the basis of disability for both public entities (Title II) and places of public accommodation (Title III). The U.S. Department of Justice and courts consistently reference the Web Content Accessibility Guidelines as the yardstick for web accessibility. While no specific version is mandated, conforming to **WCAG 2.0 Level AA** is widely considered the legal minimum, and adopting **WCAG 2.1 or 2.2 Level AA** is viewed as a best practice to reduce litigation risk and serve all users.
+
 ### Section 508 of the Rehabilitation Act
 Compliance with WCAG 2.0 AA satisfies Section 508. Federal agencies and organizations that receive federal funds must comply with Section 508.
 
@@ -22,6 +25,9 @@ Resources:
 ### 2018 Revised 508 Standards update to Section 508 of the Rehabilitation Act of 1973
 WCAG 2.1 was published in 2018, adding 17 new success criteria (mostly focused on mobile accessibility, low vision, and cognitive disabilities). Section 508 has not been formally updated to require WCAG 2.1.
 
+### State and Local Accessibility Laws
+Several U.S. states and municipalities (e.g., California's Unruh Act, Colorado HB21-1110, New York's state policies) require web content to meet WCAG 2.1 Level AA or similar standards. Organizations should review local statutes and ensure compliance in addition to federal requirements.
+
 ### WCAG Compliance and Section 508 Reference
 
 | Standard / Requirement | Legally Binding in U.S. | Notes |
@@ -29,7 +35,7 @@ WCAG 2.1 was published in 2018, adding 17 new success criteria (mostly focused o
 | **Section 508 (2018 Revised Standards)** | **Yes** – requires **WCAG 2.0 AA** | Incorporated by reference. Federal agencies and contractors must meet these criteria. |
 | **WCAG 2.0 (2008)** | **Yes (AA only)** via Section 508 | Baseline requirement for compliance. |
 | **WCAG 2.1 (2018)** | **No (not codified)** | Adds 17 new success criteria (mobile, low vision, cognitive). Frequently referenced in ADA lawsuits and settlements, and often required in RFPs/procurement. |
-| **WCAG 2.2 (2023)** | **No (not codified)** | Adds 9 new success criteria (e.g., Target Size 2.5.8, Focus Not Obscured). Considered best practice for future-proofing. May influence future Section 508 updates. |
+| **WCAG 2.2 (2023)** | **No (not codified)** | Adds 9 new success criteria (e.g., Target Size 2.5.8, Focus Not Obscured). Considered best practice for future-proofing. May influence future Section 508 updates and is increasingly cited alongside the ADA. |
 
 ## Practical Guidance
 - **Minimum legal requirement (federal):** WCAG 2.0 AA
