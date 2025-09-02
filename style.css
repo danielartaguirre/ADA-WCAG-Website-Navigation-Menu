@@ -1,0 +1,76 @@
+/* Skip tray appears on first Tab because it's the first focusable element */
+.skip-nav {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  transform: translateY(-200%);
+  z-index: 10000;
+  /* prevent overlap issues, and keep it compact */
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: .25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+.skip-nav:focus-within {
+  transform: translateY(0);
+}
+
+.skip-link {
+  display: block;
+  padding: .5rem .75rem;
+  text-decoration: none;
+  color: #000;
+}
+.skip-link:focus,
+.skip-link:focus-visible {
+  outline: 3px solid #FFD54F;
+  outline-offset: 2px;
+}
+
+/* Global focus ring for other controls (2.4.11 AA) */
+:root { --focus-ring: #FFD54F; }
+.navbar a:focus-visible,
+.navbar button:focus-visible,
+.dropdown-item:focus-visible,
+.footer-link:focus-visible,
+.footer-backtotop:focus-visible,
+#main-content:focus {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+/* Target size minimum (2.5.8 AA = 24x24). We usually end up larger for comfort. */
+.navbar .nav-link,
+.dropdown-item,
+.footer-link,
+.footer-backtotop {
+  min-height: 24px;
+  min-width: 24px;
+  display: inline-flex;
+  align-items: center;
+  padding-block: .5rem;
+}
+.navbar-toggler {
+  min-width: 24px;
+  min-height: 24px;
+}
+
+/* Help make the skip target visible and not obscured */
+#main-content:focus { scroll-margin-top: 1rem; }
+
+/* Footer styles */
+.site-footer { color: #212529; }
+.footer-links .footer-link { text-decoration: none; }
+.footer-links .footer-link:hover { text-decoration: underline; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+  .skip-nav { transition: none !important; }
+}
+
+/* Optional dark mode */
+@media (prefers-color-scheme: dark) {
+  .site-footer { background: #1f1f1f; color: #eaeaea; }
+  .footer-link { color: #eaeaea; }
+}
