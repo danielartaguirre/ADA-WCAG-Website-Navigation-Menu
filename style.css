@@ -27,6 +27,29 @@
   outline-offset: 2px;
 }
 
+/* Ensure text and link colors meet 1.4.3 Contrast (Minimum) */
+body {
+  background: #fff;
+  color: #212529;
+}
+
+a {
+  color: #0a58ca;
+}
+
+a:hover {
+  color: #06357a;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #FFD54F;
+}
+
 /* Global focus ring for other controls (2.4.11 AA) */
 :root { --focus-ring: #FFD54F; }
 .navbar a:focus-visible,
