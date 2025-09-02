@@ -57,6 +57,18 @@ Agencies and contractors are encouraged to follow WCAG 2.1 because it builds on 
 - [WCAG 2.1 Techniques](https://www.w3.org/WAI/WCAG21/Techniques/)
 - [WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
 
+##Resources:
+- /resources - collection of html files of sites
+- https://www.wcag.com/developers/
+- https://www.wcag.com/designers/
+- https://www.wcag.com/compliance/section-508/
+- https://www.wcag.com/compliance/ada/
+- https://www.wcag.com/resource/ux-quick-tips-for-designers/
+- https://www.wcag.com/resource/what-is-wcag/
+- https://www.wcag.com/resource/ui-quick-tips-for-designers/
+- https://www.wcag.com/resource/digital-accessibility-myths-facts/
+- https://www.wcag.com/resource/wcag-quick-tips-for-developers/
+
 ## Usage
 Open `index.html` directly in your browser or host the repository with GitHub Pages to view the accessible navigation example.
 
