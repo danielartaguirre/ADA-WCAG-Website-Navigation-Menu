@@ -1,10 +1,7 @@
 # Agent Instructions
 
-When adding or updating references to WCAG success criteria:
+When adding or updating reference links to WCAG success criteria:
 
-- Link to the specific guideline page on [WCAG.com](https://www.wcag.com/) rather than the homepage.
-- Use the corresponding developers or designers URL, for example:
-  - `https://www.wcag.com/developers/<slug>/`
-  - `https://www.wcag.com/designers/<slug>/`
-- If multiple success criteria are discussed together, include separate WCAG.com links for each.
-
+- Link to the specific guideline page from https://www.wcag.com/designers/ or https://www.wcag.com/developers/, dont link the homepage or developer / designer landing page.
+- To find a URL for a section, find the corresponding page by section for example:
+-- 4.1.2 is found on one of the pages and is linked by https://www.wcag.com/developers/4-1-2-name-role-value/
