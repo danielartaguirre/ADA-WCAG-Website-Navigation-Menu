@@ -81,6 +81,23 @@ a:hover {
 /* Help make the skip target visible and not obscured */
 #main-content:focus { scroll-margin-top: 1rem; }
 
+/* Align accordion level badges to the right */
+.accordion-button {
+  position: relative;
+  padding-right: 4rem;
+}
+.accordion-button::after {
+  position: absolute;
+  right: 1rem;
+  margin-left: 0;
+}
+.accordion-button .badge {
+  position: absolute;
+  top: 50%;
+  right: 2.5rem;
+  transform: translateY(-50%);
+}
+
 /* Footer styles */
 .site-footer { color: #212529; }
 .footer-links .footer-link { text-decoration: none; }
