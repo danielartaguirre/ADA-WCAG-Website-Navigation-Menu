@@ -65,7 +65,6 @@
         <ul class="mt-2">
           <li><a href="https://www.ada.gov/" target="_blank" rel="noopener">Americans with Disabilities Act (ADA)</a></li>
           <li><a href="https://www.section508.gov/" target="_blank" rel="noopener">Section 508 of the Rehabilitation Act</a></li>
-          <li><a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj" target="_blank" rel="noopener">EU Web Accessibility Directive (EN 301 549)</a></li>
         </ul>
         <p class="mt-3">WCAG references:</p>
         <ul>
@@ -78,7 +77,32 @@
 
       <!-- WCAG Reference: Accordions -->
       <section class="mt-4">
+        <h2 class="h4">WCAG 2.0 compliance</h2>
+        <p>Our navigation and footer follow key WCAG 2.0 Level AA guidelines for consistent structure and accessible links.</p>
+        <ul class="mt-2">
+          <li>Skip link addresses 2.4.1 Bypass Blocks
+            <div class="mt-1 small">
+              <a class="rule-source" href="https://www.w3.org/TR/WCAG20/#navigation-mechanisms-bypass" target="_blank" rel="noopener">W3C</a> ·
+              <a class="rule-source" href="https://www.wcag.com/developers/2-4-1-bypass-blocks/" target="_blank" rel="noopener">WCAG.com</a>
+            </div>
+          </li>
+          <li>Consistent footer links meet 3.2.3 Consistent Navigation
+            <div class="mt-1 small">
+              <a class="rule-source" href="https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-navigation" target="_blank" rel="noopener">W3C</a> ·
+              <a class="rule-source" href="https://www.wcag.com/designers/3-2-3-consistent-navigation/" target="_blank" rel="noopener">WCAG.com</a>
+            </div>
+          </li>
+          <li>Link labeling supports 3.2.4 Consistent Identification
+            <div class="mt-1 small">
+              <a class="rule-source" href="https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-identification" target="_blank" rel="noopener">W3C</a> ·
+              <a class="rule-source" href="https://www.wcag.com/authors/3-2-4-consistent-identification/" target="_blank" rel="noopener">WCAG.com</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="mt-4">
         <h2 class="h4">WCAG 2.1 coverage reference</h2>
+
 
         <div class="accordion" id="wcag21">
           <!-- 1.3.1 -->
@@ -92,26 +116,8 @@
               <div class="accordion-body">
                 Structure is conveyed programmatically via landmarks, lists, and headings so AT can interpret relationships.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/info-and-relationships/" target="_blank" rel="noopener">WCAG.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 1.4.3 -->
-          <div class="accordion-item">
-            <h3 class="accordion-header" id="h143">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c143" aria-expanded="false" aria-controls="c143">
-                1.4.3 Contrast (Minimum) <span class="badge bg-info ms-2">Level AA</span>
-              </button>
-            </h3>
-            <div id="c143" class="accordion-collapse collapse" aria-labelledby="h143" data-bs-parent="#wcag21">
-              <div class="accordion-body">
-                Text and interactive elements have a contrast ratio of at least <strong>4.5:1</strong> against adjacent colors to support users with low vision.
-                <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/1-4-3-contrast-minimum-level-aa/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/developers/1-3-1-info-and-relationships/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
@@ -120,7 +126,7 @@
           <!-- 2.1.1 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h211">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c211" aria-expanded="false" aria-controls="c211">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c211" aria-expanded="false" aria-controls="#c211">
                 2.1.1 Keyboard <span class="badge bg-primary ms-2">Level A</span>
               </button>
             </h3>
@@ -128,8 +134,8 @@
               <div class="accordion-body">
                 All functionality is operable through a keyboard without specific timing. Our nav, toggler, and dropdowns are keyboard-usable.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/keyboard/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#keyboard" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/developers/2-1-1-keyboard/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
@@ -138,7 +144,7 @@
           <!-- 2.1.2 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h212">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c212" aria-expanded="false" aria-controls="c212">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c212" aria-expanded="false" aria-controls="#c212">
                 2.1.2 No Keyboard Trap <span class="badge bg-primary ms-2">Level A</span>
               </button>
             </h3>
@@ -146,8 +152,8 @@
               <div class="accordion-body">
                 Keyboard focus is not trapped in any component; users can move focus away using standard keys (Tab/Shift+Tab or Esc).
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/no-keyboard-trap/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trap" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/developers/2-1-2-no-keyboard-trap/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
@@ -156,7 +162,7 @@
           <!-- 2.4.1 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h241">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c241" aria-expanded="false" aria-controls="c241">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c241" aria-expanded="false" aria-controls="#c241">
                 2.4.1 Bypass Blocks <span class="badge bg-primary ms-2">Level A</span>
               </button>
             </h3>
@@ -164,8 +170,8 @@
               <div class="accordion-body">
                 Provide a way to skip repeated content. We include a visible “Skip to main content” link that targets <code>#main-content</code>.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/bypass-blocks/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/developers/2-4-1-bypass-blocks/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
@@ -174,7 +180,7 @@
           <!-- 2.4.3 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h243">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c243" aria-expanded="false" aria-controls="c243">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c243" aria-expanded="false" aria-controls="#c243">
                 2.4.3 Focus Order <span class="badge bg-primary ms-2">Level A</span>
               </button>
             </h3>
@@ -182,8 +188,8 @@
               <div class="accordion-body">
                 Focus moves in a meaningful sequence that preserves relationships. DOM order: skip tray → header/nav → main → footer.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-order" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/focus-order/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#focus-order" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/developers/2-4-3-focus-order/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
@@ -192,7 +198,7 @@
           <!-- 4.1.2 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h412">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c412" aria-expanded="false" aria-controls="c412">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c412" aria-expanded="false" aria-controls="#c412">
                 4.1.2 Name, Role, Value <span class="badge bg-primary ms-2">Level A</span>
               </button>
             </h3>
@@ -200,8 +206,26 @@
               <div class="accordion-body">
                 Components expose their name, role, and state to assistive tech. Our dropdown trigger is a <code>button</code> with <code>aria-expanded</code> and <code>aria-controls</code>.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#name-role-value" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/name-role-value/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#name-role-value" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/developers/4-1-2-name-role-value/" target="_blank" rel="noopener">WCAG.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1.4.3 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="h143">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c143" aria-expanded="false" aria-controls="#c143">
+                1.4.3 Contrast (Minimum) <span class="badge bg-info ms-2">Level AA</span>
+              </button>
+            </h3>
+            <div id="c143" class="accordion-collapse collapse" aria-labelledby="h143" data-bs-parent="#wcag21">
+              <div class="accordion-body">
+                Text and interactive elements have a contrast ratio of at least <strong>4.5:1</strong> against adjacent colors to support users with low vision.
+                <div class="mt-2 small">
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/designers/1-4-3-color-contrast/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
@@ -210,7 +234,7 @@
           <!-- 1.4.10 / 1.4.12 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h1410">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c1410" aria-expanded="false" aria-controls="c1410">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c1410" aria-expanded="false" aria-controls="#c1410">
                 1.4.10 Reflow &amp; 1.4.12 Text Spacing <span class="badge bg-info ms-2">Level AA</span>
               </button>
             </h3>
@@ -218,10 +242,10 @@
               <div class="accordion-body">
                 Content reflows without loss of information, and custom text spacing does not break layout. Bootstrap’s responsive grid helps with these.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#reflow" target="_blank" rel="noopener">W3C Reflow</a> ·
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#text-spacing" target="_blank" rel="noopener">W3C Text Spacing</a> ·
-                  <a href="https://www.wcag.com/designers/reflow/" target="_blank" rel="noopener">WCAG.com Reflow</a> ·
-                  <a href="https://www.wcag.com/designers/text-spacing/" target="_blank" rel="noopener">WCAG.com Text Spacing</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#reflow" target="_blank" rel="noopener">W3C Reflow</a> ·
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#text-spacing" target="_blank" rel="noopener">W3C Text Spacing</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/designers/1-4-10-reflow/" target="_blank" rel="noopener">WCAG.com Reflow</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/designers/1-4-12-text-spacing/" target="_blank" rel="noopener">WCAG.com Text Spacing</a>
                 </div>
               </div>
             </div>
@@ -230,7 +254,7 @@
           <!-- 2.4.6 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h246">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c246" aria-expanded="false" aria-controls="c246">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c246" aria-expanded="false" aria-controls="#c246">
                 2.4.6 Headings and Labels <span class="badge bg-info ms-2">Level AA</span>
               </button>
             </h3>
@@ -238,8 +262,8 @@
               <div class="accordion-body">
                 Headings and labels describe topic or purpose. We use semantic headings and clear link text.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/designers/headings-and-labels/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/authors/2-4-6-headings-and-labels/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
@@ -248,7 +272,7 @@
           <!-- 2.4.7 -->
           <div class="accordion-item">
             <h3 class="accordion-header" id="h247">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c247" aria-expanded="false" aria-controls="c247">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c247" aria-expanded="false" aria-controls="#c247">
                 2.4.7 Focus Visible <span class="badge bg-info ms-2">Level AA</span>
               </button>
             </h3>
@@ -256,54 +280,55 @@
               <div class="accordion-body">
                 A visible focus indicator is present for keyboard focus. We add a high contrast outline with offset.
                 <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG21/quickref/#focus-visible" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/focus-visible/" target="_blank" rel="noopener">WCAG.com</a>
+                  <a class="rule-source" href="https://www.w3.org/WAI/WCAG21/quickref/#focus-visible" target="_blank" rel="noopener">W3C</a> ·
+                  <a class="rule-source" href="https://www.wcag.com/developers/2-4-7-visible-focus/" target="_blank" rel="noopener">WCAG.com</a>
                 </div>
               </div>
             </div>
           </div>
         </div> <!-- /accordion 2.1 -->
+
       </section>
 
       <section class="mt-4">
         <h2 class="h4">WCAG 2.2 coverage reference</h2>
 
-        <div class="accordion" id="wcag22">
-          <!-- 3.2.6 -->
-          <div class="accordion-item">
-            <h3 class="accordion-header" id="h326">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c326" aria-expanded="true" aria-controls="c326">
-                3.2.6 Consistent Help <span class="badge bg-primary ms-2">Level A</span>
-              </button>
-            </h3>
-            <div id="c326" class="accordion-collapse collapse show" aria-labelledby="h326" data-bs-parent="#wcag22">
-              <div class="accordion-body">
-                When help mechanisms are present, they appear in a consistent location across pages. The footer contains stable contact/help links.
-                <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG22/quickref/#consistent-help" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/designers/consistent-help/" target="_blank" rel="noopener">WCAG.com</a>
+          <div class="accordion" id="wcag22">
+            <!-- 3.2.6 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="h326">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c326" aria-expanded="true" aria-controls="c326">
+                  3.2.6 Consistent Help <span class="badge bg-primary ms-2">Level A</span>
+                </button>
+              </h3>
+              <div id="c326" class="accordion-collapse collapse show" aria-labelledby="h326" data-bs-parent="#wcag22">
+                <div class="accordion-body">
+                  When help mechanisms are present, they appear in a consistent location across pages. The footer contains stable contact/help links.
+                  <div class="mt-2 small">
+                    <a class="rule-source" href="https://www.w3.org/WAI/WCAG22/quickref/#consistent-help" target="_blank" rel="noopener">W3C</a> ·
+                    <a class="rule-source" href="https://www.wcag.com/developers/3-2-6-consistent-help-level-a/" target="_blank" rel="noopener">WCAG.com</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- 2.4.11 -->
-          <div class="accordion-item">
-            <h3 class="accordion-header" id="h2411">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2411" aria-expanded="false" aria-controls="c2411">
-                2.4.11 Focus Appearance <span class="badge bg-info ms-2">Level AA</span>
-              </button>
-            </h3>
-            <div id="c2411" class="accordion-collapse collapse" aria-labelledby="h2411" data-bs-parent="#wcag22">
-              <div class="accordion-body">
-                Keyboard focus has a clearly visible indicator with sufficient contrast and area. We apply a 3px outline with offset to avoid being obscured.
-                <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG22/quickref/#focus-appearance" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/designers/focus-appearance/" target="_blank" rel="noopener">WCAG.com</a>
+            <!-- 2.4.11 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="h2411">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2411" aria-expanded="false" aria-controls="c2411">
+                  2.4.11 Focus Appearance <span class="badge bg-info ms-2">Level AA</span>
+                </button>
+              </h3>
+              <div id="c2411" class="accordion-collapse collapse" aria-labelledby="h2411" data-bs-parent="#wcag22">
+                <div class="accordion-body">
+                  Keyboard focus has a clearly visible indicator with sufficient contrast and area. We apply a 3px outline with offset to avoid being obscured.
+                  <div class="mt-2 small">
+                    <a class="rule-source" href="https://www.w3.org/WAI/WCAG22/quickref/#focus-appearance" target="_blank" rel="noopener">W3C</a> ·
+                    <a class="rule-source" href="https://www.wcag.com/designers/2-4-11-focus-appearance/" target="_blank" rel="noopener">WCAG.com</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
             <!-- 2.4.12 -->
             <div class="accordion-item">
@@ -316,8 +341,44 @@
                 <div class="accordion-body">
                   The focused element is not fully hidden by author-created UI. We use outline offsets and <code>scroll-margin</code> on the main skip target.
                   <div class="mt-2 small">
-                    <a href="https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-minimum" target="_blank" rel="noopener">W3C</a> ·
-                    <a href="https://www.wcag.com/developers/focus-not-obscured-minimum/" target="_blank" rel="noopener">WCAG.com</a>
+                    <a class="rule-source" href="https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-minimum" target="_blank" rel="noopener">W3C</a> ·
+                    <a class="rule-source" href="https://www.wcag.com/developers/2-4-12-focus-not-obscured-minimum/" target="_blank" rel="noopener">WCAG.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.5.8 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="h258">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c258" aria-expanded="false" aria-controls="#c258">
+                  2.5.8 Target Size (Minimum) <span class="badge bg-info ms-2">Level AA</span>
+                </button>
+              </h3>
+              <div id="c258" class="accordion-collapse collapse" aria-labelledby="h258" data-bs-parent="#wcag22">
+                <div class="accordion-body">
+                  Pointer targets are at least <strong>24 by 24 CSS pixels</strong> or have equivalent spacing, with listed exceptions. Our interactive elements meet or exceed 24×24; 44×44 is used where comfortable.
+                  <div class="mt-2 small">
+                    <a class="rule-source" href="https://www.w3.org/WAI/WCAG22/quickref/#target-size-minimum" target="_blank" rel="noopener">W3C</a> ·
+                    <a class="rule-source" href="https://www.wcag.com/developers/2-5-8-target-size-minimum-level-aa/" target="_blank" rel="noopener">WCAG.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2.3.3 -->
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="h233">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c233" aria-expanded="false" aria-controls="#c233">
+                  2.3.3 Animation from Interactions <span class="badge bg-secondary ms-2">Level AAA</span>
+                </button>
+              </h3>
+              <div id="c233" class="accordion-collapse collapse" aria-labelledby="h233" data-bs-parent="#wcag22">
+                <div class="accordion-body">
+                  Motion triggered by interaction can be disabled unless essential. We respect <code>prefers-reduced-motion</code> and suppress transitions/animations accordingly.
+                  <div class="mt-2 small">
+                    <a class="rule-source" href="https://www.w3.org/WAI/WCAG22/quickref/#animation-from-interactions" target="_blank" rel="noopener">W3C</a> ·
+                    <a class="rule-source" href="https://www.wcag.com/designers/2-3-3-animation-from-interactions/" target="_blank" rel="noopener">WCAG.com</a>
                   </div>
                 </div>
               </div>
@@ -326,7 +387,7 @@
             <!-- 2.4.13 -->
             <div class="accordion-item">
               <h3 class="accordion-header" id="h2413">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2413" aria-expanded="false" aria-controls="c2413">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2413" aria-expanded="false" aria-controls="#c2413">
                   2.4.13 Focus Not Obscured (Enhanced) <span class="badge bg-secondary">Level AAA</span>
                 </button>
               </h3>
@@ -334,49 +395,14 @@
                 <div class="accordion-body">
                   The focused element is not hidden at all by author-created UI. We use outline offsets and <code>scroll-margin</code> on the main skip target.
                   <div class="mt-2 small">
-                    <a href="https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-enhanced" target="_blank" rel="noopener">W3C</a> ·
-                    <a href="https://www.wcag.com/developers/focus-not-obscured-enhanced/" target="_blank" rel="noopener">WCAG.com</a>
+                    <a class="rule-source" href="https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-enhanced" target="_blank" rel="noopener">W3C</a> ·
+                    <a class="rule-source" href="https://www.wcag.com/developers/2-4-13-focus-not-obscured-enhanced/" target="_blank" rel="noopener">WCAG.com</a>
                   </div>
                 </div>
               </div>
             </div>
+          </div> <!-- /accordion 2.2 -->
 
-          <!-- 2.5.8 -->
-          <div class="accordion-item">
-            <h3 class="accordion-header" id="h258">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c258" aria-expanded="false" aria-controls="c258">
-                2.5.8 Target Size (Minimum) <span class="badge bg-info ms-2">Level AA</span>
-              </button>
-            </h3>
-            <div id="c258" class="accordion-collapse collapse" aria-labelledby="h258" data-bs-parent="#wcag22">
-              <div class="accordion-body">
-                Pointer targets are at least <strong>24 by 24 CSS pixels</strong> or have equivalent spacing, with listed exceptions. Our interactive elements meet or exceed 24×24; 44×44 is used where comfortable.
-                <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG22/quickref/#target-size-minimum" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/developers/2-5-8-target-size-minimum-level-aa/" target="_blank" rel="noopener">WCAG.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 2.3.3 -->
-          <div class="accordion-item">
-            <h3 class="accordion-header" id="h233">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c233" aria-expanded="false" aria-controls="c233">
-                2.3.3 Animation from Interactions <span class="badge bg-secondary ms-2">Level AAA</span>
-              </button>
-            </h3>
-            <div id="c233" class="accordion-collapse collapse" aria-labelledby="h233" data-bs-parent="#wcag22">
-              <div class="accordion-body">
-                Motion triggered by interaction can be disabled unless essential. We respect <code>prefers-reduced-motion</code> and suppress transitions/animations accordingly.
-                <div class="mt-2 small">
-                  <a href="https://www.w3.org/WAI/WCAG22/quickref/#animation-from-interactions" target="_blank" rel="noopener">W3C</a> ·
-                  <a href="https://www.wcag.com/designers/animation-from-interactions/" target="_blank" rel="noopener">WCAG.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /accordion 2.2 -->
       </section>
   </main>
 

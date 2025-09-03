@@ -100,8 +100,14 @@ a:hover {
 
 /* Footer styles */
 .site-footer { color: #212529; }
+.site-footer .footer-link { color: #003f7f; }
+.site-footer .footer-link:hover { color: #001d3d; }
 .footer-links .footer-link { text-decoration: none; }
 .footer-links .footer-link:hover { text-decoration: underline; }
+
+.rule-source {
+  text-decoration: underline;
+}
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
