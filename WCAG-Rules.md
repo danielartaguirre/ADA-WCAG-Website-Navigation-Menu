@@ -1,4 +1,5 @@
-
+#New in WCAG 2.1 
+- 1.1.1 Non-text Content (Level A)
 
 #New in WCAG 2.1
 - 1.3.4 Orientation (AA)
