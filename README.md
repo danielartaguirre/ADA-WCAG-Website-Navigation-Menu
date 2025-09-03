@@ -9,6 +9,8 @@ This repository provides a starting point for building accessible navigation men
 - Screen reader friendly structure
 - Skip-to-main-content link and keyboard navigation
 - Guidance for ADA and WCAG best practices
+- WCAG 2.0, 2.1, and 2.2 rule references with dedicated `rule-source` link class
+- Section outlining WCAG 2.0 compliance for navigation and footer
 
 ## Laws and Requirements
 
