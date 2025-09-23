@@ -4,7 +4,7 @@ WCAG 2.1 & 2.2 compliant navigation template.
 
 This repository provides a starting point for building accessible navigation menus and footers that meet WCAG 2.1 and WCAG 2.2 requirements. It demonstrates use of semantic HTML, ARIA attributes, proper keyboard navigation, and screen reader support.
 
-## Features
+## Navigation Features
 - HTML tags, ARIA roles, and labels for accessibility
 - Screen reader friendly structure
 - Skip-to-main-content link and keyboard navigation
