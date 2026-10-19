@@ -56,6 +56,7 @@ Agencies and contractors are encouraged to follow WCAG 2.1 because it builds on 
 - [WCAG 2.0](https://www.w3.org/TR/WCAG20/)
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 - [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+- https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&versions=2.1
 - [WCAG 2.1 Techniques](https://www.w3.org/WAI/WCAG21/Techniques/)
 - [WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/)
 
